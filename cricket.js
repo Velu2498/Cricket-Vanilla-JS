@@ -138,3 +138,12 @@ function result() {
   window.location.href = "result.html";
 }
 }
+
+//restart
+function reload() {
+  localStorage.setItem("ts1","");
+  localStorage.setItem("ts2","");
+  localStorage.setItem("arr","");
+  localStorage.setItem("arr2","");
+  location.reload();
+}
