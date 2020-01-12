@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>cricket</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="cricket.css" />
+  </head>
+  <body>
+    <div class="container-fluid" id="timer">
+      <div class="row justify-content-center"  >
+          <h3>TIMER :</h3> <h3 id="demo"></h3>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <h1>TEAM 01</h1>
+<div class="row" id="team1">
+  <div class="col-xl-4"> 
+    <h5 class="card-title"> Team score: <input type="text" class="text-center" disabled value="" style="height: 150px; width: 200px;" id="ts1"> </h5>
+      <button class="btn btn-primary justify-content-center" style="width: 200px;" onclick="team1()" id="bt1">BAT</button>
+  </div>
+  <div class="col-xl-4"> 
+    <h5 class="card-text" style="visibility:hidden;" id="tp1"  >player one: <input id="t1p1" type="text" style="width: 200px;" disabled value=""> </h5>
+    <h5 class="card-text" style="visibility:hidden;" id="tp2" >player two: <input id="t1p2" type="text" style="width: 200px;" disabled value=""> </h5>
+    <h5 class="card-text" style="visibility:hidden;" id="tp3" >player three: <input id="t1p3" type="text" style="width: 200px;" disabled value=""> </h5>
+    <h5 class="card-text" style="visibility:hidden;" id="tp4" >player four: <input  id="t1p4" type="text" style="width: 200px;" disabled value=""> </h5>
+    <h5 class="card-text" style="visibility:hidden;" id="tp5" >player five: <input id="t1p5" type="text" style="width: 200px;" disabled value=""> </h5>
+  </div>
+    <div class="col-xl-4">
+      <h5 class="card-text" style="visibility:hidden;" id="tp6" >player six: <input id="t1p6" type="text" style="width: 200px;" disabled value=""> </h5>
+      <h5 class="card-text" style="visibility:hidden;" id="tp7" >player seven: <input id="t1p7" type="text" style="width: 200px;" disabled value=""> </h5>
+      <h5 class="card-text" style="visibility:hidden;" id="tp8" >player eight: <input id="t1p8" type="text" style="width: 200px;" disabled value=""> </h5>
+      <h5 class="card-text" style="visibility:hidden;" id="tp9" >player nine: <input id="t1p9" type="text" style="width: 200px;"  disabled value=""> </h5>
+      <h5 class="card-text" style="visibility:hidden;" id="tp10" >player ten: <input id="t1p10" type="text" style="width: 200px;" disabled value=""> </h5>
+    </div>
+   
+</div>
+        </div>
+
+        <div class="col-xl-6">
+          <h1>TEAM 02</h1>
+         <div class="row" id="team2">
+           <div class="col-xl-4">
+              <h5 class="card-title">Total run: <input type="text" class="text-center"  disabled value="" style="height: 150px; width: 200px;" id="ts2"> </h5>
+              <button class="btn btn-primary" style="width: 200px;" onclick="team2()" id="bt2">BAT</button>
+            </div>
+              <div class="col-xl-4">
+              <h5 class="card-text" style="visibility:hidden;" id="tp21">player one: <input id="t2p1" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp22">player two: <input id="t2p2" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp23">player three: <input id="t2p3" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp24">player four: <input id="t2p4" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp25">player five: <input id="t2p5" type="text" style="width: 200px;" disabled value=""> </h5>
+            </div>
+              <div class="col-xl-4">
+              <h5 class="card-text" style="visibility:hidden;" id="tp26">player six: <input id="t2p6" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp27">player seven: <input id="t2p7" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp28">player eight: <input id="t2p8" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp29">player nine: <input id="t2p9" type="text" style="width: 200px;" disabled value=""> </h5>
+              <h5 class="card-text" style="visibility:hidden;" id="tp210">player ten: <input id="t2p10" type="text" style="width: 200px;" disabled value=""> </h5>
+       
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center">
+      <button class="btn btn-primary" style="margin-top: 50px;" onclick="result()">Result</button>
+      <button class="btn btn-primary" style="margin-top: 50px; margin-left: 10px;" onclick="location.reload()">Restart</button>
+    </div>
+  </div>
+
+    <script src="cricket.js"></script>
+
+    <script>
+
+
+    </script>
+  </body>
+</html>
